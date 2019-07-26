@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var messageLabel: UILabel!
     
+    private lazy var viewModel = ViewModel(idTextObservable: idTextFiled.rx.text, passwordTextObservable: passwordTextField.rx.text, model: Model())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

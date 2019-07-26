@@ -23,13 +23,13 @@ class Model: ModelProtocol {
     func validate(idText: Optional<String>, passwordText: Optional<String>) -> Observable<Void> {
         switch (idText, passwordText) {
         case (.none, .none):
-            return Observable.error(ModelProtocol.invalidIdAndPassword)
+            return Observable.error(ModelError.invalidIdAndPassword)
         case (.none, .some):
-            return Observable.error(ModelProtocol.invalidId)
+            return Observable.error(ModelError.invalidId)
         case (.some, .none):
-            return Observable.error(ModelProtocol.invalidPassword)
-        case (let idText?, let passwordText?)
-            switch (idText.isEmpty, passwordText?.idEmpty) {
+            return Observable.error(ModelError.invalidPassword)
+        case (let idText?, let passwordText?):
+            switch (idText.isEmpty, passwordText.isEmpty) {
             case (true, true):
                 return Observable.error(ModelError.invalidIdAndPassword)
             case (false, false):

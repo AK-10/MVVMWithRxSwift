@@ -25,7 +25,7 @@ class ViewModel {
         self.validationText = event.flatMap { event -> Observable<String> in
             switch event {
             case .next:
-                return .jsut("OK!")
+                return .just("OK!")
             case let .error(error as ModelError):
                 return .just(error.errorText)
             case .error, .completed:
@@ -42,6 +42,19 @@ class ViewModel {
             case .completed:
                 return .empty()
             }
+        }
+    }
+}
+
+extension ModelError {
+    fileprivate var errorText: String {
+        switch self {
+        case .invalidIdAndPassword:
+            return "have not entered ID and Password yet"
+        case .invalidId:
+            return "have not entered ID"
+        case .invalidPassword:
+            return "have not entered Password"
         }
     }
 }
