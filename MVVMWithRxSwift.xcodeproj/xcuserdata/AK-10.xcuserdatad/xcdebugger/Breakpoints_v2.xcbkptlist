@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMWithRxSwift/ViewController.swift"
+            timestampString = "586109071.35089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMWithRxSwift.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVMWithRxSwift.ViewController"
+                  moduleName = "MVVMWithRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atsushikonishi/WorkSpace/XcodeProjects/MVVMWithRxSwift/MVVMWithRxSwift/ViewController.swift"
+                  timestampString = "586109053.008239"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMWithRxSwift.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVMWithRxSwift.ViewController"
+                  moduleName = "MVVMWithRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atsushikonishi/WorkSpace/XcodeProjects/MVVMWithRxSwift/MVVMWithRxSwift/ViewController.swift"
+                  timestampString = "586109053.015499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMWithRxSwift.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVMWithRxSwift.ViewController&gt;"
+                  moduleName = "MVVMWithRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atsushikonishi/WorkSpace/XcodeProjects/MVVMWithRxSwift/MVVMWithRxSwift/ViewController.swift"
+                  timestampString = "586109053.017758"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMWithRxSwift.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVMWithRxSwift.ViewController&gt;"
+                  moduleName = "MVVMWithRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atsushikonishi/WorkSpace/XcodeProjects/MVVMWithRxSwift/MVVMWithRxSwift/ViewController.swift"
+                  timestampString = "586109053.020331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMWithRxSwift.ViewController.__deallocating_deinit"
+                  moduleName = "MVVMWithRxSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atsushikonishi/WorkSpace/XcodeProjects/MVVMWithRxSwift/MVVMWithRxSwift/ViewController.swift"
+                  timestampString = "586109053.022476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

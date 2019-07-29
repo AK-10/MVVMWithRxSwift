@@ -18,45 +18,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CJR-TP-hIZ">
-                                <rect key="frame" x="64" y="108" width="286" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fcd-tO-csi">
-                                <rect key="frame" x="64" y="170" width="286" height="35"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDとPasswordを入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP0-C0-Oq1">
-                                <rect key="frame" x="64" y="237" width="286" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="idとpasswordを入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTr-oR-0XE">
+                                <rect key="frame" x="76.5" y="344" width="261" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IsN-KI-R87">
+                                <rect key="frame" x="41.5" y="124" width="331" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K1i-e1-LzO">
+                                <rect key="frame" x="41.5" y="234" width="331" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CJR-TP-hIZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="4yy-TC-Ce6"/>
-                            <constraint firstItem="CJR-TP-hIZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="6Xf-gm-6as"/>
-                            <constraint firstItem="PP0-C0-Oq1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="D4P-FU-5PX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CJR-TP-hIZ" secondAttribute="trailing" constant="64" id="JXj-Ue-iNJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PP0-C0-Oq1" secondAttribute="trailing" constant="64" id="RQe-oW-qqM"/>
-                            <constraint firstItem="Fcd-tO-csi" firstAttribute="top" secondItem="CJR-TP-hIZ" secondAttribute="bottom" constant="32" id="TTs-p9-WL5"/>
-                            <constraint firstItem="Fcd-tO-csi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="WDe-Fa-Zia"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fcd-tO-csi" secondAttribute="trailing" constant="64" id="XQu-0h-0PN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PP0-C0-Oq1" secondAttribute="bottom" constant="604" id="eyX-x0-Clw"/>
-                            <constraint firstItem="PP0-C0-Oq1" firstAttribute="top" secondItem="Fcd-tO-csi" secondAttribute="bottom" constant="32" id="fVZ-ed-8S1"/>
+                            <constraint firstItem="K1i-e1-LzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1MD-Zc-b9l"/>
+                            <constraint firstItem="IsN-KI-R87" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ZC-fV-UbU"/>
+                            <constraint firstItem="BTr-oR-0XE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Su-xs-bO9"/>
+                            <constraint firstItem="K1i-e1-LzO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="PbX-na-PVy"/>
+                            <constraint firstItem="K1i-e1-LzO" firstAttribute="top" secondItem="IsN-KI-R87" secondAttribute="bottom" constant="80" id="VQJ-qn-v9M"/>
+                            <constraint firstItem="IsN-KI-R87" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="jXn-L5-kla"/>
+                            <constraint firstItem="BTr-oR-0XE" firstAttribute="top" secondItem="K1i-e1-LzO" secondAttribute="bottom" constant="80" id="s5q-KU-20S"/>
+                            <constraint firstItem="IsN-KI-R87" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="yvK-hv-3MT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="MessageLabel" destination="PP0-C0-Oq1" id="Kpm-Eb-AQF"/>
-                        <outlet property="idTextFiled" destination="CJR-TP-hIZ" id="J5t-Vy-2Ng"/>
-                        <outlet property="messageLabel" destination="PP0-C0-Oq1" id="Tai-kf-bhU"/>
-                        <outlet property="passwordTextField" destination="Fcd-tO-csi" id="nnH-iM-IMp"/>
+                        <outlet property="idTextField" destination="IsN-KI-R87" id="LEw-LI-krP"/>
+                        <outlet property="messageLabel" destination="BTr-oR-0XE" id="0NL-ZK-Bea"/>
+                        <outlet property="passwordTextField" destination="K1i-e1-LzO" id="hcd-A6-Bwl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,15 +12,26 @@ import RxCocoa
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var idTextFiled: UITextField!
+    @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var messageLabel: UILabel!
     
-    private lazy var viewModel = ViewModel(idTextObservable: idTextFiled.rx.text, passwordTextObservable: passwordTextField.rx.text, model: Model())
+    private var loadLabelColor: Binder<UIColor> {
+        return Binder(self) { me, color in
+            me.messageLabel.textColor = color
+        }
+    }
+    
+    private lazy var viewModel = ViewModel(idTextObservable: idTextField.rx.text.asObservable(), passwordTextObservable: passwordTextField.rx.text.asObservable(), model: Model())
+    
+    private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        viewModel.validationText.bind(to: messageLabel.rx.text).disposed(by: disposeBag)
+        
+        viewModel.loadLabelColor.bind(to: loadLabelColor).disposed(by: disposeBag)
     }
 }
 
